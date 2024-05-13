@@ -12,6 +12,6 @@ The target feature is unbalanced, so using macro f1 score as the training metric
 ## Results
 After training multiple classification models on the dataset, both with outliers removed and on with outliers left in the dataset, our best performing model was random forest classifier trained on the dataset with outliers removed. \
 Using this model gave us an accuracy of 0.84. \
-Looking at the confusion matrix, we observe that model is poor at classifying observations belonging to class 2, while it is doing a better job at classifying class 0 and class 1.
+Looking at the confusion matrix (below), we observe that model is poor at classifying observations belonging to class 2, while it is doing a better job at classifying class 0 and class 1.
 
 ![Confusion matrix](confusion.png)
